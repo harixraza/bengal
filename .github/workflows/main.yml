@@ -1,7 +1,7 @@
 on: 
  push:
    branches:
-     - cpanel
+     - main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
