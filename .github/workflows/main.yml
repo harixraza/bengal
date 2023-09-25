@@ -17,4 +17,4 @@ jobs:
         server: wolfiz.org
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /
+        server-dir: /public_html/bengalpro/wp-content/themes/storefront-child-theme-master
