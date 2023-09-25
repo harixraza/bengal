@@ -3,6 +3,7 @@
 /**
  * Template name: Homepage
  */
+get_header();
 ?>
 <body>
     <section>
@@ -685,3 +686,6 @@
 
         
     </body>
+    <?php
+    get_footer();
+    ?>
