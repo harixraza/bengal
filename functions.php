@@ -23,7 +23,7 @@ function sf_child_theme_dequeue_style() {
  * Note: DO NOT! alter or remove the code above this text and only add your custom PHP functions below this text.
  */
 function enqueue_output_css() {
-    wp_enqueue_style('output-css', get_template_directory_uri() . '/dist/output.css', array(), '1.0', 'all');
+    wp_enqueue_style('output', get_template_directory_uri() . '/dist/output.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_output_css');
 
