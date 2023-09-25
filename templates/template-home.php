@@ -36,10 +36,10 @@
             <nav class=" w-full h-20 flex  justify-center items-center font-heebo">
                 <div class="flex"> 
                 <div class="w-24 h-5 flex lg:items-center">
-                    <img class="w-full h-5 cursor-pointer" src="./img/social.svg" alt="Social Icon" />
+                    <img class="w-full h-5 cursor-pointer" src="assets/images/social.svg" alt="Social Icon" />
                 </div>
                 <div class="lg:w-24 w-7 h-6 flex items-center sm:justify-center lg:rounded-md lg:ml-7 lg:px-2 bg-primary">
-                    <img class="w-4 h-4 " src="./img/Path 10.svg" alt="Path 10" />
+                    <img class="w-4 h-4 " src="assets/images/Path 10.svg" alt="Path 10" />
                     <label class="hidden sm:block pl-1 text-white text-base font-bold cursor-pointer"> *9096</label>
                 </div>
             </div>
@@ -49,15 +49,15 @@
                         <span class="text-base font-medium"> צור קשר</span>
                     </li>
                     <li class="flex w-20 cursor-pointer"> 
-                        <img class="" src="./img/down.svg" alt="Arrow Down" />
+                        <img class="" src="assets/images/down.svg" alt="Arrow Down" />
                         <span class="text-base font-medium"> מידע נוסף</span>
                     </li>
                     <li class="flex cursor-pointer "> 
-                        <img class="" src="./img/down.svg" alt="Arrow Down" />
+                        <img class="" src="assets/images/down.svg" alt="Arrow Down" />
                         <span class="text-base font-medium"> חנות אונליין</span>
                     </li>
                     <li class="flex w-20 cursor-pointer "> 
-                        <img class="" src="./img/down.svg" alt="Arrow Down" />
+                        <img class="" src="assets/images/down.svg" alt="Arrow Down" />
                         <span class="text-base font-medium"> שירותים</span>
                     </li>
                     <li class="flex cursor-pointer"> 
@@ -69,7 +69,7 @@
                 </ul>
                 <div class="flex  lg:ml-10">   
                 <div class="flex w-16 h-11  cursor-pointer">
-                    <img class="relative left-5" src="./img/icon-logo.svg" alt="Logo" />
+                    <img class="relative left-5" src="assets/images/icon-logo.svg" alt="Logo" />
                 </div>
                 <div class="w-[70px] h-10 flex-col lg:flex-row justify-between items-center">
                     <text class="text-[25px] font-bold l    eading-3 ">Ben<a class="text-primary">Gal</a> </text>
@@ -80,11 +80,11 @@
             </div>
 
                 <div id="menu-icon" class="lg:hidden cursor-pointer">
-                    <img src="./img/Group 112.svg" alt="Menu" />
+                    <img src="assets/images/Group 112.svg" alt="Menu" />
                 </div>
             </nav>
             <div >
-            <div class="w-full h-[500px] bg-[url('./img/homepagebg.webp')] bg-cover bg-center bg-blend-darken flex justify-center items-center font-heebo">
+            <div class="w-full h-[500px] bg-[url('assets/images/homepagebg.webp')] bg-cover bg-center bg-blend-darken flex justify-center items-center font-heebo">
                 <div class="w-[400px] h-[157px]  ">
                     <div class="w-[450px] h-6  ">
                         <text class="text-4xl leading-3 font-bold text-white"> ?תיקון פנצ'ר באמצע הדרך </text>
@@ -99,11 +99,11 @@
                         <div class="text-white">
                           24/6
                         </div>
-                        <img class="text-white w-4 h-4 ml-1" src="./img/Path 22.svg" />
+                        <img class="text-white w-4 h-4 ml-1" src="assets/images/Path 22.svg" />
                     </div>
                     <div class="h-6 mt-4 flex items-center justify-end">
                         <div class="w-40 h-9 bg-primary rounded-md flex items-center ">
-                          <img class="text-white w-4 h-4 ml-1" src="./img/Path 20.svg" />
+                          <img class="text-white w-4 h-4 ml-1" src="assets/images/Path 20.svg" />
                           <text class="text-white font-heebo text-24 font-normal">
                             *:הזמנת שירות
                           </text>
@@ -127,7 +127,7 @@
             <div class="flex items-center justify-around  space-x-20 ">  
             <div class="flex-col w-48 h-28 rounded-md items-center justify-center bg-primary border-4 border-primary">
                 <div class="flex items-center justify-center">
-                  <img class="text-white w-14 h-11  mt-1" src="./img/Car battery replacement.svg" />
+                  <img class="text-white w-14 h-11  mt-1" src="assets/images/Car battery replacement.svg" />
                 </div>
                 <text class="text-white font-heebo ps-4 text-base font-normal">
                   החלפת מצברים בדרכים
@@ -137,7 +137,7 @@
             
             <div class="flex-col w-48 h-28  rounded-md items-center justify-center bg-primary border-4 border-primary">
                 <div class="flex items-center justify-center">
-                  <img class="text-white w-14 h-11  mt-1" src="./img/frame2.png" />
+                  <img class="text-white w-14 h-11  mt-1" src="assets/images/frame2.png" />
                 </div>
                 <text class="text-white font-heebo ps-4 text-base font-normal">
                     החלפת גלגל בדרכים
@@ -149,7 +149,7 @@
             <div class="flex items-center justify-center space-x-20 pt-4 pr-4 lg:pt-0 lg:pr-0">  
             <div class="flex-col w-48 h-28  rounded-md items-center justify-center bg-primary border-4 border-primary">
                 <div class="flex items-center justify-center">
-                  <img class="text-white w-14 h-11  mt-1" src="./img/frame3.png" />
+                  <img class="text-white w-14 h-11  mt-1" src="assets/images/frame3.png" />
                 </div>
                 <text class="text-white font-heebo ps-4 text-base font-normal">
                     מכירת צמיגים בדרכים
@@ -157,7 +157,7 @@
             </div>
               <div class="flex-col w-48 h-28  rounded-md items-center justify-center bg-primary border-4 border-primary">
                 <div class="flex items-center justify-center">
-                  <img class="text-white w-14 h-11  mt-1" src="./img/frame4.png" />
+                  <img class="text-white w-14 h-11  mt-1" src="assets/images/frame4.png" />
                 </div>
                 <text class="text-white font-heebo ps-4 text-base font-normal">
                     תיקון פנצ׳ר בדרכים
@@ -170,7 +170,7 @@
     <section>
         <div class="flex  justify-center bg-white ">
             <div class="w-[425px] h-64 flex-col">
-                <img class="w-425px h-64" src="./img/Group 62.png" />
+                <img class="w-425px h-64" src="assets/images/Group 62.png" />
                 
             </div>
             <div class=" w-[425px] h-64 text-right  ">
@@ -191,7 +191,7 @@
             </div>
         </div>
         <div class="w-full flex justify-center space-x-10 mt-10 pb-3">
-            <img class="hidden sm:block" src="./img/Group 11087.webp" />
+            <img class="hidden sm:block" src="assets/images/Group 11087.webp" />
         </div>
         
     </section>
@@ -205,25 +205,25 @@
         <div class="flex flex-col md:flex-row justify-center items-center space-x-5 mt-5">
             
             <div class="w-52 h-40 relative mb-4 md:mb-0">
-                <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                 <div class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-80 text-black text-center py-2">
                     למנופים
                 </div>
             </div>
             <div class="w-52 h-40 relative mb-4 md:mb-0 bg-gray-300">
-                <img class="w-52 h-40 object-cover" src="./img/sec4.2.png" alt="Logo" />
+                <img class="w-52 h-40 object-cover" src="assets/images/sec4.2.png" alt="Logo" />
                 <div class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-80 text-black text-center py-2">
                     לטרקטורים וצמ״ה
                 </div>
             </div>
             <div class="w-52 h-40 relative">
-                <img class="w-52 h-40 object-cover" src="./img/sec4.3.png" alt="Logo" />
+                <img class="w-52 h-40 object-cover" src="assets/images/sec4.3.png" alt="Logo" />
                 <div class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-80 text-black text-center py-2">
                     למשאיות ואוטבוסים
                 </div>
             </div>
             <div class="w-52 h-40 relative">
-                <img class="w-52 h-40 object-cover" src="./img/sec4.4.png" alt="Logo" />
+                <img class="w-52 h-40 object-cover" src="assets/images/sec4.4.png" alt="Logo" />
                 <div class="absolute bottom-0 left-0 right-0 bg-white bg-opacity-80 text-black text-center leading-3">
                     למי ניתן השירות
                     לרכבים פרטיים
@@ -237,7 +237,7 @@
         
     </section>
     <section>
-        <div class="w-full h-[400px] bg-[url('./img/sec5bg.png')] bg-cover bg-center flex justify-center items-center font-heebo">
+        <div class="w-full h-[400px] bg-[url('assets/images/sec5bg.png')] bg-cover bg-center flex justify-center items-center font-heebo">
             <div class="text-center space-y-4"> 
                 <p class="font-heebo text-2xl text-white">ניידות שירות שלנו בפריסה ארצית</p>
                 <p class="font-heebo text-7xl font-bold text-white">45 דקות</p>
@@ -256,25 +256,25 @@
                 
         <div class="w-[500px]   p-4 font-heebo">
             <div class="flex flex-row justify-between mb-4">
-                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('./img/bgicon1.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
+                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('assets/images/bgicon1.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
                     <p class="text-center text-lg font-normal">אזורי שירות</p>
                     <div class="w-20 h-[2px] bg-black my-1"></div>
                     <p class="text-center text-base font-normal">פריסה ארצית</p>
                 </div>
                 
-                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('./img/bgicon2.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
+                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('assets/images/bgicon2.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
                     <p class="text-center text-lg font-normal">שעות פעילות</p>
                     <div class="w-20 h-[2px] bg-black my-1"></div>
                     <p class="text-center text-base font-normal"> 24/6</p>
                 </div>
             </div>
             <div class="flex flex-row justify-between mt-4">
-                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('./img/bgicon3.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
+                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('assets/images/bgicon3.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
                     <p class="text-center text-lg font-normal">מרכזי התקנה</p>
                     <div class="w-20 h-[2px] bg-black my-1"></div>
                     <p class="text-center text-base font-normal">180</p>
                 </div>
-                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('./img/bgicon4.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
+                <div class="w-1/2 h-[130px] border border-gray-100 rounded-md bg-[url('assets/images/bgicon4.svg')] bg-no-repeat bg-center p-2 m-2 flex flex-col justify-center items-center">
                     <p class="text-center text-lg font-normal">מס׳ שירותי דרך</p>
                     <div class="w-20 h-[2px] bg-black my-1"></div>
                     <p class="text-center text-base font-normal">45,543</p>
@@ -571,7 +571,7 @@
     </section>
 
     <section>
-        <div class=" relative bg-[url('./img/raod.jpg')] bg-cover  bg-center w-full  h-48 flex justify-center space-x-12 items-center">
+        <div class=" relative bg-[url('assets/images/raod.jpg')] bg-cover  bg-center w-full  h-48 flex justify-center space-x-12 items-center">
             <div class="p-2 w-[250px] h-28 flex flex-col justify-end">
                 <p class="text-center text-white text-4xl font-bold">
                     <span id="counter1">0</span>
@@ -622,7 +622,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                            <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                             <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
                                 למנופים
                             </div>
@@ -630,7 +630,7 @@
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                            <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                             <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
                                 למנופים
                             </div>
@@ -638,7 +638,7 @@
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                            <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                             <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
                                 למנופים
                             </div>
@@ -646,7 +646,7 @@
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                            <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                             <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
                                 למנופים
                             </div>
@@ -654,7 +654,7 @@
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                            <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                             <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
                                 למנופים
                             </div>
@@ -662,7 +662,7 @@
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                            <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                             <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
                                 למנופים
                             </div>
@@ -671,7 +671,7 @@
 
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="./img/sec4.1.png" alt="Logo" />
+                            <img class="w-52 h-40 object-cover" src="assets/images/sec4.1.png" alt="Logo" />
                             <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
                                 למנופים
                             </div>

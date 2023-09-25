@@ -922,6 +922,62 @@ video {
   background-image: url('./img/sec5bg.png');
 }
 
+.bg-\[url\(\'img\/bgicon1\.svg\'\)\] {
+  background-image: url('img/bgicon1.svg');
+}
+
+.bg-\[url\(\'img\/bgicon2\.svg\'\)\] {
+  background-image: url('img/bgicon2.svg');
+}
+
+.bg-\[url\(\'img\/bgicon3\.svg\'\)\] {
+  background-image: url('img/bgicon3.svg');
+}
+
+.bg-\[url\(\'img\/bgicon4\.svg\'\)\] {
+  background-image: url('img/bgicon4.svg');
+}
+
+.bg-\[url\(\'img\/homepagebg\.webp\'\)\] {
+  background-image: url('img/homepagebg.webp');
+}
+
+.bg-\[url\(\'img\/raod\.jpg\'\)\] {
+  background-image: url('img/raod.jpg');
+}
+
+.bg-\[url\(\'img\/sec5bg\.png\'\)\] {
+  background-image: url('img/sec5bg.png');
+}
+
+.bg-\[url\(\'assets\/images\/bgicon1\.svg\'\)\] {
+  background-image: url('assets/images/bgicon1.svg');
+}
+
+.bg-\[url\(\'assets\/images\/bgicon2\.svg\'\)\] {
+  background-image: url('assets/images/bgicon2.svg');
+}
+
+.bg-\[url\(\'assets\/images\/bgicon3\.svg\'\)\] {
+  background-image: url('assets/images/bgicon3.svg');
+}
+
+.bg-\[url\(\'assets\/images\/bgicon4\.svg\'\)\] {
+  background-image: url('assets/images/bgicon4.svg');
+}
+
+.bg-\[url\(\'assets\/images\/homepagebg\.webp\'\)\] {
+  background-image: url('assets/images/homepagebg.webp');
+}
+
+.bg-\[url\(\'assets\/images\/raod\.jpg\'\)\] {
+  background-image: url('assets/images/raod.jpg');
+}
+
+.bg-\[url\(\'assets\/images\/sec5bg\.png\'\)\] {
+  background-image: url('assets/images/sec5bg.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
