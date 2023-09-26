@@ -455,27 +455,24 @@ get_header();
         </div>
     </div>
     </section>
-    <section class=" mt-4 flex justify-center ">
-            
-            
-            
+    <section class="" style="backgroud-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/road.jpg');">   
     </section>
 
-    <section class=" p-11 ">
+    <section class="container">
         <div class="text-center p-4"> 
             <text class="text-black font-heebo ps-4 text-2xl font-bold">
                 לקוחות ממליצים
             </text>
         </div>
-        <div class="w-full ml-5  lg:px-72 ">
+        <div class="m-auto" style="width:80%">
             <div class="swiper mySwiper mx-auto h-[500px] ">
                 <div class="swiper-wrapper reviewSlider">
                     <div class="swiper-slide  bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
-                            <div class="text-center">
+                            <div class="text-left">
                                 <span class="text-base text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                             </div>
-                            <p class="text-sm mt-2"> 
+                            <p class="text-sm mt-2 p-2"> 
                                 החיים יכולים להפתיע
                                 אותנו ולא תמיד באופן
                                 חיובי. אחד המצבים הכי לא
@@ -494,10 +491,10 @@ get_header();
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
-                            <div class="text-center">
+                            <div class="text-left">
                                 <span class="text-base text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                             </div>
-                            <p class="text-sm mt-2"> 
+                            <p class="text-sm mt-2 p-2"> 
                                 החיים יכולים להפתיע
                                 אותנו ולא תמיד באופן
                                 חיובי. אחד המצבים הכי לא
@@ -516,10 +513,15 @@ get_header();
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
-                            <div class="text-center">
+                            <div class=" flex justify-between items-center ">
+                            <div class="text-left">
                                 <span class="text-base text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                             </div>
-                            <p class="text-sm mt-2"> 
+                            <div class="text-right">
+                                <span class="text-[22px]">״</span>
+                            </div>
+                            </div>
+                            <p class="text-sm mt-2 p-2"> 
                                 החיים יכולים להפתיע
                                 אותנו ולא תמיד באופן
                                 חיובי. אחד המצבים הכי לא
@@ -538,10 +540,10 @@ get_header();
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
-                            <div class="text-center">
+                            <div class="text-left">
                                 <span class="text-base text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                             </div>
-                            <p class="text-sm mt-2"> 
+                            <p class="text-sm mt-2 p-2"> 
                                 החיים יכולים להפתיע
                                 אותנו ולא תמיד באופן
                                 חיובי. אחד המצבים הכי לא
@@ -560,10 +562,10 @@ get_header();
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
-                            <div class="text-center">
+                            <div class="text-left">
                                 <span class="text-base text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                             </div>
-                            <p class="text-sm mt-2"> 
+                            <p class="text-sm mt-2 p-2"> 
                                 החיים יכולים להפתיע
                                 אותנו ולא תמיד באופן
                                 חיובי. אחד המצבים הכי לא
@@ -582,10 +584,10 @@ get_header();
                     </div>
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
-                            <div class="text-center">
+                            <div class="text-left">
                                 <span class="text-base text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                             </div>
-                            <p class="text-sm mt-2"> 
+                            <p class="text-sm mt-2 p-2"> 
                                 החיים יכולים להפתיע
                                 אותנו ולא תמיד באופן
                                 חיובי. אחד המצבים הכי לא
@@ -606,10 +608,10 @@ get_header();
                     
                     <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
-                            <div class="text-center">
+                            <div class="text-left">
                                 <span class="text-base text-yellow-500">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
                             </div>
-                            <p class="text-sm mt-2"> 
+                            <p class="text-sm mt-2 p-2"> 
                                 החיים יכולים להפתיע
                                 אותנו ולא תמיד באופן
                                 חיובי. אחד המצבים הכי לא
@@ -643,35 +645,26 @@ get_header();
     </section>
 
     <section>
-        <div class=" relative bg-[url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/raod.jpg')] bg-cover  bg-center w-full  h-48 flex justify-center space-x-12 items-center">
+        <div class=" relative bg-cover bg-no-repeat  bg-center w-full  h-[230px] flex justify-center space-x-12 items-center" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/road.jpg');">
+        <div class="car absolute top-[-190px] bottom-0 right-[-210px] overflow-hidden" style="top:-190px;right:-210px">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/car.png" alt="">
+        </div>
             <div class="p-2 w-[250px] h-28 flex flex-col justify-end">
-                <p class="text-center text-white text-4xl font-bold">
-                    <span id="counter1">0</span>
-                </p>
+                    <span id="counter1" class="text-center text-white text-4xl font-bold">0</span>
                 <p class="text-center text-white text-lg font-normal">מרכזי התקנה</p>
             </div>
             
             
             <div class=" p-2 w-[250px] h-28 flex flex-col justify-end">
-                <p class="text-center text-white text-4xl font-bold">
-                    <span id="counter2">0</span>
-                </p>
-
+                <span id="counter2" class="text-center text-white text-4xl font-bold">0</span>
                 <p class="text-center text-white text-lg font-normal">החלפות צמיגים</p>
             </div>
             <div class="  p-2 w-[250px] h-28 flex flex-col justify-end">
-                <p class="text-center text-white text-4xl font-bold">
-                    <span id="counter3">0</span>
-                </p>
-
+                <span id="counter3" class="text-center text-white text-4xl font-bold">0</span>
                 <p class="text-center text-white text-lg font-normal"> תיקוני פאנצ׳ר</p>
             </div>
             <div class=" p-2 w-[250px] h-28 flex flex-col justify-end">
-                <p class="text-center text-white text-4xl font-bold">
-                    <span id="counter4">9000</span>
-
-                </p>
-
+                <span id="counter4" class="text-center text-white text-4xl font-bold">9000</span>
                 <p class="text-center text-white text-lg font-normal"> החלפות גלגל</p>
             </div>
         </div>
