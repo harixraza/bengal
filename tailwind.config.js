@@ -8,6 +8,9 @@ module.exports = {
       gridTemplateColumns: {
         '[1x2]': '1fr 2fr',
       },
+      fontFamily: {
+        heebo: ['Heebo', 'sans'],
+      },
       container: {
         center: true,
         screens: {
@@ -38,6 +41,7 @@ module.exports = {
         'gray-100': '#D1D5DB',
         'gray-200': '#E6E6E6',
         'gray-700': '#6B7280',
+        'primarymain':"#EB2F19"
       },
       spacing: {
         7.5: '30px',
