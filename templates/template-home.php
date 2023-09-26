@@ -456,6 +456,7 @@ get_header();
     </div>
     </section>
     <section class="" style="backgroud-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/road.jpg');">   
+
     </section>
 
     <section class="container">
