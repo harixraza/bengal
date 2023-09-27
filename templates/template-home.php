@@ -466,7 +466,7 @@ get_header();
             </text>
         </div>
         <div class="m-auto" style="width:80%">
-            <div class="swiper mySwiper mx-auto h-[500px] ">
+            <div class="swiper mySwiper mx-auto">
                 <div class="swiper-wrapper reviewSlider">
                     <div class="swiper-slide  bg-white text-center text-2xl flex items-center justify-center">
                         <div class="w-[250px] h-[300px] review bg-black text-white text-right p-1 opacity-90">
@@ -631,7 +631,7 @@ get_header();
                     </div>
 
                 </div>
-                <div class="swiper-pagination -my-3"></div>
+                <div class="swiper-pagination"></div>
                 <div class="swiper-button-next text-black focus:font-extrabold rounded-full p-2 cursor-pointer"></div>
                 <div class="swiper-button-prev  text-black rounded-full  focus:font-extrabold p-2 cursor-pointer"></div>
     
@@ -646,7 +646,7 @@ get_header();
     </section>
 
     <section>
-        <div class=" relative bg-cover bg-no-repeat  bg-center w-full  h-[230px] flex justify-center space-x-12 items-center" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/road.jpg');">
+        <div class=" relative bg-contain  bg-center w-full  h-[230px] flex justify-center space-x-12 items-center" style="background-image:url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/road.jpg');">
         <div class="car absolute top-[-190px] bottom-0 right-[-210px] overflow-hidden" style="top:-190px;right:-210px">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/car.png" alt="">
         </div>
@@ -677,87 +677,106 @@ get_header();
     </section>
 
 
-    <section class=" p-11 ">
-        <div class="text-center p-4"> 
-            <text class="text-black font-heebo ps-4 text-2xl font-bold">
-                לקוחות ממליצים
+    <section class=" container">
+        <div class="text-center p-5 "> 
+            <text class="text-black font-heebo text-2xl font-bold">
+            מאמרים אחרונים
             </text>
         </div>
-        <div class="w-full ml-5  lg:px-56 ">
-            <div class="swiper mySwiper mx-auto ">
+        <div class="w-full lg:px-20 pb-10">
+            <div class="swiper mySwiper h-fit"> <!-- Set your desired width and height here -->
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
-                        <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sec4.1.png" alt="Logo" />
-                            <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
-                                למנופים
+                    <!-- Swiper slides go here -->
+                    <div class="swiper-slide w-full h-fit bg-white text-center text-2xl">
+                    <div class="text-end flex-col border border-gray-100 rounded-md mx-0">
+                        <div class="relative">
+                            <img class="w-full" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/swiper.png" alt="Image" />
+                            
+                        </div>
+                        <div class="flex justify-between items-center pt-1 px-1 flex-col md:flex-row">
+                            <text class="mr-1 text-xs md:text-sm">19/10/2020   </text>
+                            <div class="flex items-center px-4">
+                                <span class="text-sm font-heebo font-bold text-black pl-4  "> קריאה להמשך</span>
                             </div>
                         </div>
+                        <p class="text-base font-normal font-heebo p-2">החיים יכולים להפתיע אותנו ולא תמיד באופן חיובי. אחד המצבים הכי לא צפויים בחיים הוא מצב בו יש לנו תיקון פנצ׳ר. תקר בגלגל יכול לגרום לנו לחוש לחץ, חרדה וחשש ולא תמיד יש לנו את היכולת או את הידע להחליף לבד את הגלגל ולחזור לנסיעה רגילה. החלפת גלגל/פנצ'ריה נייד</p>
+                        
                     </div>
-                    <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
-                        <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sec4.1.png" alt="Logo" />
-                            <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
-                                למנופים
-                            </div>
-                        </div>
                     </div>
-                    <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
-                        <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sec4.1.png" alt="Logo" />
-                            <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
-                                למנופים
+                    <div class="swiper-slide w-full h-fit bg-white text-center text-2xl">
+                    <div class="text-end flex-col border border-gray-100 rounded-md mx-0">
+                        <div class="relative">
+                            <img class="w-full" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/swiper.png" alt="Image" />
+                            
+                        </div>
+                        <div class="flex justify-between items-center pt-1 px-1 flex-col md:flex-row">
+                            <text class="mr-1 text-xs md:text-sm">19/10/2020   </text>
+                            <div class="flex items-center px-4">
+                                <span class="text-sm font-heebo font-bold text-black pl-4  "> קריאה להמשך</span>
                             </div>
                         </div>
+                        <p class="text-base font-normal font-heebo p-2">החיים יכולים להפתיע אותנו ולא תמיד באופן חיובי. אחד המצבים הכי לא צפויים בחיים הוא מצב בו יש לנו תיקון פנצ׳ר. תקר בגלגל יכול לגרום לנו לחוש לחץ, חרדה וחשש ולא תמיד יש לנו את היכולת או את הידע להחליף לבד את הגלגל ולחזור לנסיעה רגילה. החלפת גלגל/פנצ'ריה נייד</p>
+                        
                     </div>
-                    <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
-                        <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sec4.1.png" alt="Logo" />
-                            <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
-                                למנופים
-                            </div>
-                        </div>
                     </div>
-                    <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
-                        <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sec4.1.png" alt="Logo" />
-                            <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
-                                למנופים
+                    <div class="swiper-slide w-full h-fit bg-white text-center text-2xl">
+                    <div class="text-end flex-col border border-gray-100 rounded-md mx-0">
+                        <div class="relative">
+                            <img class="w-full" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/swiper.png" alt="Image" />
+                            
+                        </div>
+                        <div class="flex justify-between items-center pt-1 px-1 flex-col md:flex-row">
+                            <text class="mr-1 text-xs md:text-sm">19/10/2020   </text>
+                            <div class="flex items-center px-4">
+                                <span class="text-sm font-heebo font-bold text-black pl-4  "> קריאה להמשך</span>
                             </div>
                         </div>
+                        <p class="text-base font-normal font-heebo p-2">החיים יכולים להפתיע אותנו ולא תמיד באופן חיובי. אחד המצבים הכי לא צפויים בחיים הוא מצב בו יש לנו תיקון פנצ׳ר. תקר בגלגל יכול לגרום לנו לחוש לחץ, חרדה וחשש ולא תמיד יש לנו את היכולת או את הידע להחליף לבד את הגלגל ולחזור לנסיעה רגילה. החלפת גלגל/פנצ'ריה נייד</p>
+                        
                     </div>
-                    <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
-                        <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sec4.1.png" alt="Logo" />
-                            <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
-                                למנופים
-                            </div>
-                        </div>
                     </div>
-
-                    <div class="swiper-slide bg-white text-center text-2xl flex items-center justify-center">
-                        <div class="w-52 h-40 relative mb-4 md:mb-0">
-                            <img class="w-52 h-40 object-cover" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sec4.1.png" alt="Logo" />
-                            <div class="absolute bottom-0 left-0 right-0 bg-white  text-black text-center py-2">
-                                למנופים
+                    <div class="swiper-slide w-full h-fit bg-white text-center text-2xl">
+                    <div class="text-end flex-col border border-gray-100 rounded-md mx-0">
+                        <div class="relative">
+                            <img class="w-full" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/swiper.png" alt="Image" />
+                            
+                        </div>
+                        <div class="flex justify-between items-center pt-1 px-1 flex-col md:flex-row">
+                            <text class="mr-1 text-xs md:text-sm">19/10/2020   </text>
+                            <div class="flex items-center px-4">
+                                <span class="text-sm font-heebo font-bold text-black pl-4  "> קריאה להמשך</span>
                             </div>
                         </div>
+                        <p class="text-base font-normal font-heebo p-2">החיים יכולים להפתיע אותנו ולא תמיד באופן חיובי. אחד המצבים הכי לא צפויים בחיים הוא מצב בו יש לנו תיקון פנצ׳ר. תקר בגלגל יכול לגרום לנו לחוש לחץ, חרדה וחשש ולא תמיד יש לנו את היכולת או את הידע להחליף לבד את הגלגל ולחזור לנסיעה רגילה. החלפת גלגל/פנצ'ריה נייד</p>
+                        
+                    </div>
+                    </div>
+                    <div class="swiper-slide w-full h-fit bg-white text-center text-2xl">
+                    <div class="text-end flex-col border border-gray-100 rounded-md mx-0">
+                        <div class="relative">
+                            <img class="w-full" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/swiper.png" alt="Image" />
+                            
+                        </div>
+                        <div class="flex justify-between items-center pt-1 px-1 flex-col md:flex-row">
+                            <text class="mr-1 text-xs md:text-sm">19/10/2020   </text>
+                            <div class="flex items-center px-4">
+                                <span class="text-sm font-heebo font-bold text-black pl-4  "> קריאה להמשך</span>
+                            </div>
+                        </div>
+                        <p class="text-base font-normal font-heebo p-2">החיים יכולים להפתיע אותנו ולא תמיד באופן חיובי. אחד המצבים הכי לא צפויים בחיים הוא מצב בו יש לנו תיקון פנצ׳ר. תקר בגלגל יכול לגרום לנו לחוש לחץ, חרדה וחשש ולא תמיד יש לנו את היכולת או את הידע להחליף לבד את הגלגל ולחזור לנסיעה רגילה. החלפת גלגל/פנצ'ריה נייד</p>
+                        
+                    </div>
                     </div>
                     
                     
-                   
+                    <!-- Add more slides as needed -->
                 </div>
-                <div class="swiper-pagination -my-4"></div>
-                
-
+                <div class="swiper-pagination "></div>
             </div>
-            </div>
-            
-
         </div>
-
-           
     </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 
     <script>
         var swiper = new Swiper(".mySwiper", {
@@ -862,7 +881,39 @@ get_header();
     });
 </script>
 
-    
+<script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 2,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            
+            breakpoints: {
+            300: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            1024:{
+                slidesPerView: 3,
+                spaceBetween: 30,
+            }
+            },
+
+            speed: 1000, // Adjust the speed (in milliseconds)
+            effect: "slide"
+        });
+    </script>
     
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 
