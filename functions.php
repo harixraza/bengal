@@ -24,7 +24,18 @@ function sf_child_theme_dequeue_style() {
  */
 function enqueue_output_css() {
     wp_enqueue_style('output', get_stylesheet_directory_uri() . '/dist/output.css');
+    wp_enqueue_style('customcss', get_stylesheet_directory_uri() . '/dist/custom.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_output_css');
+function register_custom_menus() {
+    register_nav_menus(
+        array(
+            'footer-menu' => __('Footer Menu'),
+            'footer-shop' => __('Footer Shop'),
+            'footer-service' => __('Footer Service'),
+        )
+    );
+}
+add_action('init', 'register_custom_menus');
 
 
